@@ -39,6 +39,9 @@ header{
     background-repeat: no-repeat; 
     background-size: cover;
 }
+.fondo2{
+
+}
 .texto1{
     width: 60%;
     margin: auto;
@@ -88,10 +91,10 @@ hr{
     animation-iteration-count: infinite;
 }
 /*gotas*/
-.gotas1{
-    width: 5px;
-    height: 30px;
-    background-color: rgb(196, 216, 243);
+.letra1{
+    width: 10%;
+    height: 10%;
+    font-size: 40px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     position: absolute;
@@ -99,16 +102,109 @@ hr{
     left: 45%;
     animation: gotass 1.8s linear infinite;
 }
-.gotas2{
-    width: 5px;
-    height: 30px;
-    background-color: rgb(196, 216, 243);
+.letra2{
+    width: 10%;
+    height: 10%;
+    font-size: 40px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    position: absolute;
+    bottom: 0;
+    left: 45%;
+    animation: gotass 1.8s linear infinite;
+    animation-delay: .4s;
+}
+.letra3{
+    width: 10%;
+    height: 10%;
+    font-size: 40px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     position: absolute;
     bottom: 0;
     left: 25%;
     animation: gotass 1.8s linear infinite;
+}
+.letra4{
+    width: 10%;
+    height: 10%;
+    font-size: 40px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    position: absolute;
+    bottom: 0;
+    left: 25%;
+    animation: gotass 1.8s linear infinite;
+    animation-delay: .4s;
+}
+.letra5{
+    width: 10%;
+    height: 10%;
+    font-size: 40px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    position: absolute;
+    bottom: 0;
+    left: 75%;
+    animation: gotass 1.8s linear infinite;
+}
+.letra6{
+    width: 10%;
+    height: 10%;
+    font-size: 40px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    position: absolute;
+    bottom: 0;
+    left: 75%;
+    animation: gotass 1.8s linear infinite;
+    animation-delay: .4s;
+}
+.letra7{
+    width: 10%;
+    height: 10%;
+    font-size: 40px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    position: absolute;
+    bottom: 0;
+    left: 90%;
+    animation: gotass 1.8s linear infinite;
+}
+.letra8{
+    width: 10%;
+    height: 10%;
+    font-size: 40px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    position: absolute;
+    bottom: 0;
+    left: 90%;
+    animation: gotass 1.8s linear infinite;
+    animation-delay: .4s;
+}
+.letra9{
+    width: 10%;
+    height: 10%;
+    font-size: 40px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    position: absolute;
+    bottom: 0;
+    left: 10%;
+    animation: gotass 1.8s linear infinite;
+}
+.letra10{
+    width: 10%;
+    height: 10%;
+    font-size: 40px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    position: absolute;
+    bottom: 0;
+    left: 10%;
+    animation: gotass 1.8s linear infinite;
+    animation-delay: .4s;
 }
 /*fin gotas*/
 

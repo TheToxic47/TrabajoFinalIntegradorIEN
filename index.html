@@ -11,7 +11,7 @@
 <body>
     <header>
         <!--inicio navgar-->
-        <nav class="navbar navbar-light bg-transparent fixed-top">
+        <nav class="navbar navbar-light bg-danger fixed-top">
             <div class="container-fluid" style="color: black;">
               <a class="navbar-brand" href="#" style="color: white;">INICIO</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
@@ -26,10 +26,10 @@
                 <div class="offcanvas-body">
                   <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                     <li class="nav-item">
-                      <a class="nav-link active" aria-current="page" href="#" style="color: white;">Inicio</a>
+                      <a class="nav-link active" aria-current="page" href="#inicio" style="color: white;">Inicio</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#" style="color: white;">Conocimientos</a>
+                      <a class="nav-link" href="#conocimientos1" style="color: white;">Conocimientos</a>
                     </li> 
                     <li class="nav-item">
                         <a class="nav-link" href="#" style="color: white;">Proyectos</a>
@@ -47,12 +47,20 @@
           </nav>
         <!--fin navgar-->
         <!--Titulo-->
-        <h1 class="bordeup" style="color: white;">Trabajo Final Integrador</h1>
+        <h1 class="bordeup" style="color: white;" id="inicio">Trabajo Final Integrador</h1>
 
         <!--About-->
         <div class="gotas">
-          <div class="gotas1"></div>
-          <div class="gotas2"></div>
+          <div class="letra1"><p>1</p></div>
+          <div class="letra2"><p>0</p></div>
+          <div class="letra3"><p>1</p></div>
+          <div class="letra4"><p>0</p></div>
+          <div class="letra5"><p>1</p></div>
+          <div class="letra6"><p>0</p></div>
+          <div class="letra7"><p>1</p></div>
+          <div class="letra8"><p>0</p></div>
+          <div class="letra9"><p>1</p></div>
+          <div class="letra10"><p>0</p></div>
         </div>
 
         <div class="row align-items" style="padding-top:150px; margin-right: 100px; margin-left: 100px; justify-content: center; align-items: center;">
@@ -63,8 +71,8 @@
               </div>
               <div class="col">
                 <div class="card-body">
-                  <h5 class="card-title">Sobre mi</h5>
-                  <p class="card-text">Me llamo Sosa Lukas. Soy un estudiante de 15 años que intenta subsistir en este mundo en el cual se necesita ampliar sus conocimientos para poder disfrutar de buena manera todo lo que hay en él. Estudié muchos lenguajes desde html hasta c los cuales no dejo de aprender de ellos.</p>
+                  <h5 class="card-title" id="sobremi">Sobre mi</h5>
+                  <p class="card-text">Me llamo Sosa Joaquin. Soy un estudiante de 21 años que intenta subsistir en este mundo en el cual se necesita ampliar sus conocimientos para poder disfrutar de buena manera todo lo que hay en él. Estudié muchos lenguajes desde html hasta c los cuales no dejo de aprender de ellos.</p>
                   <p class="card-text"><small class="text-muted"></small></p>
                 </div>
               </div>
@@ -81,14 +89,14 @@
     <div class="container-sm" style="background-color: black; padding-top:25px; border-radius: 10px ;"  class="texto1">
 
 
-<div class="fondo2">
+<div>
         
 
             <!--cartas-->
               <div class="conocimientos">
 
                 <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-                    <h1 style="color:white">Conocimientos actuales</h1>
+                    <h1 style="color:white"  id="conocimientos1">Conocimientos actuales</h1>
                     <div class="carousel-indicators">
                       <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                       <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -96,7 +104,7 @@
                       <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
                       <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
                     </div>
-                    <div class="carousel-inner">
+                    <div class="carousel-inner" >
                       <div class="carousel-item active">
                         <h4 style="color:white">HTML</h4>
                         <a href="https://developer.mozilla.org/es/docs/Web/HTML" target="_blank"><img src="img/html-5.svg" class="d-block w-100"></a>
@@ -106,7 +114,7 @@
                         <a href="https://lenguajecss.com/css/introduccion/que-es-css/" target="_blank"><img src="img/css-3.svg" class="d-block w-100"></a>
                       </div>
                       <div class="carousel-item">
-                        <h4 style="color:white">JAVASCRIPT</h4>
+                        <h4 style="color:white" >JAVASCRIPT</h4>
                         <a href="https://soyrafaramos.com/que-es-javascript-para-que-sirve/" target="_blank"><img src="img/javascript.svg" class="d-block w-100"></a>
                       </div>
                       <div class="carousel-item">
@@ -126,12 +134,15 @@
                       <span class="carousel-control-next-icon" aria-hidden="true"></span>
                       <span class="visually-hidden">Next</span>
                     </button>
+                    <small style="color: white;">Haz click para más información</small>
+                    <br>
+                    <br>
                   </div>
                 </div>
 
 
 <br>
-<div class="fondo3">
+<div>
 </div>
 </div>
 </div>
@@ -140,9 +151,11 @@
 <br>
 <br>
 <br>
-<br>
-       
+<br> 
 <!-- Fin de espacio ejemplo-->
+</div>
+<div class="fondo2">
+  
 </div>
 
 

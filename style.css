@@ -48,6 +48,7 @@ header{
 .fondo3{
     background-image: url(img/redes1.png);
     background-repeat: no-repeat; 
+    background-repeat: no-repeat;
     background-size: cover;
 }
 .bordes{
@@ -72,9 +73,7 @@ header{
     border-radius: 5px;
     border: #00ffb3 solid 3px;
 }
-.mensajeAgradecimiento{
-    
-}
+
 h2{
     justify-content: center;
     text-align: center;

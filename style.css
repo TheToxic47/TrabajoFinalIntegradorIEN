@@ -308,7 +308,7 @@ hr{
     animation-iteration-count: infinite;;
 }
 .redes ul li .dscd{
-    animation-name: dscd;
+    animation-name: dscd1;
     animation-duration: 3s ;
     animation-iteration-count: infinite;;
 }
@@ -352,7 +352,7 @@ hr{
         border: 3px solid #696969;
     }
 }
-@keyframes dscd{
+@keyframes dscd1{
     0%{
         border: 3px solid #696969;
     }

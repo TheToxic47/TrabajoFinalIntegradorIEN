@@ -4,7 +4,7 @@ function mostrarDatos () {
 
 
 
-    document.getElementById(`mensajeAgradecimiento`).innerHTML = `
+    document.getElementById("mensajeAgradecimiento").innerHTML = `
     <p class="turno-asignado" class="col sectionAgradecimiento bg-dark text-light" style="padding-top:20px;text-align:center">Muchas gracias <strong>${Nombre}</strong> por comentar ♥</p> 
     <br>
     <p style="text-align:center">Se lo enviaremos lo mas rapido al diseñador :)</p>

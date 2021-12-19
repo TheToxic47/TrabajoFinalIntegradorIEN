@@ -31,14 +31,11 @@
                     <li class="nav-item">
                       <a class="nav-link" href="#conocimientos1" style="color: white;">Conocimientos</a>
                     </li> 
-                    <li class="nav-item">
-                        <a class="nav-link" href="#" style="color: white;">Proyectos</a>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#contacto" style="color: white;">Contactame</a>
                       </li> 
                       <li class="nav-item">
                         <a class="nav-link" href="#redes" style="color: white;">Redes Sociales</a>
-                      </li> 
-                      <li class="nav-item">
-                        <a class="nav-link" href="#" style="color: white;">Contactame</a>
                       </li> 
                   </ul>
                 </div>
@@ -154,40 +151,58 @@
 <br> 
 <!-- Fin de espacio ejemplo-->
 </div>
-<div class="fondo3">
-    <h2 style="padding-bottom: 20px;">Contáctame 📩</h2>
-    <div class="row align-items-start">
-      <div class="col">
-    <div class="formulario container-xl">
-      <div class="mb-3">
-        <label for="exampleInputEmail1" class="form-label">Nombre</label>
-        <input type="text" class="form-control">
-        <div class="form-text">Nunca compartiremos tu informacion. A menos que nos paguen</div>
+<div class="fondo3 bg-dark">
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+      <h2 class="text-light" style="padding-bottom: 20px;" id="contacto">Contáctame 📩</h2>
+      <div class="row align-items-start" >
+        <div class="col">
+            <form id="formulario1">
+      <div class="formulario container-xl">
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label text-light">Nombre</label>
+          <input type="text" class="form-control" name="inputName" id="Nombre">
+          <div class="form-text">Nunca compartiremos tu informacion. A menos que nos paguen</div>
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label text-light">Correo Electrónico</label>
+          <input type="email" class="form-control" placeholder="tucorreo@correo.com">
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlTextarea1" class="form-label text-light">Mensaje</label>
+          <textarea class="form-control" rows="3"></textarea>
+        </div>
+        <button type="submit" class="btn btn-success" value="Enviar" onclick="mostrarDatos()" style="margin-bottom: 20px;">Enviar</button>
+        <button type="reset" class="btn btn-danger" value="Borrar" style="margin-bottom: 20px;">Borrar</button>
+        </div>
+              </form>
       </div>
-      <div class="mb-3">
-        <label for="exampleFormControlInput1" class="form-label">Correo Electronico</label>
-        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="tucorreo@correo.com">
-      </div>
-      <div class="mb-3">
-        <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
-        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-      </div>
-      <button type="submit" class="btn btn-success">Enviar</button>
-      </div>
-    </div>
-      <div class="col sectionAgradecimiento" style="padding-top:20px;">
-        <h5 style="text-align:center;">Cualquier comentario se agradece </h5>
-        <ul>
-          <li>Gracias <strong class="mensajeAgradecimiento">Toxic</strong></li>
-        </ul>
-      </div>
-    </div>
-    
 
-    <br>
-    <br>
-    <br>
-</div>
+
+      <br><br><br><br><br><br><br><br>
+      <!--Cartel de agradecimiento-->
+      <div class="col sectionAgradecimiento bg-dark text-light" style="padding-top:20px;" id="mensajeAgradecimiento">
+        <h5 style="text-align:center;">Con tu opinion</h5>
+        <ul>
+          <li>Soy capaz de mejorar</li>
+          <li>Consigo que ambos interactuemos</li>
+          <li>Obtengo crear un lazo de confianza</li>
+          <li>Me ayudas a notar cada error que voy teniendo</li>
+        </ul>
+        <hr>
+        <p style="text-align:center">
+          <strong>Y LO MAS IMPORTANTE</strong>
+        </p>
+        <p style="text-align:center"> tu opinion hace que este perro este feliz</p>
+        <div class="fotodelperro">
+          <img src="img/fotoperro1.jpeg" width="60%" height="60%">
+        </div>
+      </div>
+      </div>
+    </div>
       <div class="fondo2">
         <h4 class="redestitutlo" id="redes">No Dudes en agregarme en algunas de estas redes ♥</h4>
     <div class="redes">
@@ -197,7 +212,7 @@
         <li><a href="https://wa.me/+5493625153076" target="_blank" class="wsp"><img src="img/whatsapp.svg" width="100%" height="100%" style="padding-bottom: 1.5px;"></a></li>
         <li><a href="https://steamcommunity.com/id/krowprofile" target="_blank" class="stm"><img src="img/steam.svg" width="100%" height="100%" style="padding-bottom: 1.5px;"></a></li>
       </ul>
-
+    </div>
        </div>
   </div>
 

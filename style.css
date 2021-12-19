@@ -44,10 +44,10 @@ header{
 }
 .fondo3{
     background-color: rgb(153, 152, 152);
+    padding-bottom: 20px;
 }
 .fondo2{
     background-image: url(img/redes1.png);
-    background-repeat: no-repeat; 
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -66,9 +66,14 @@ header{
 .card{
     border: #302a2a solid;
 }
+.fotodelperro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .sectionAgradecimiento{
     background-color: white;
-    padding-bottom: 180px;
+    padding-bottom: 40px;
     margin: 0px 120px;
     border-radius: 5px;
     border: #00ffb3 solid 3px;
